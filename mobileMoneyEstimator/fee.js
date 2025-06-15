@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')({ sigint: true });
+
 function estimateTransactionFee(amountToSend) {
   const feePercentage = 0.015;
   const minFee = 10;

@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')({ sigint: true });
+
 function calculateBodaFare(distanceInKm) {
   const baseFare = 50; //kenyan shillings        
   const chargePerKm = 15; // kenyan shillings

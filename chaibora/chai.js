@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')({ sigint: true });
+
 function calculateChaiIngredients(numberOfCups) {
   const sugarPerCup = 2;    
   const teaLeavesPerCup = 1;   
